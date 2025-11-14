@@ -49,7 +49,6 @@ void main() {
       },
       $createdAt: DateTime.now().toIso8601String(),
       $updatedAt: DateTime.now().toIso8601String(),
-      $sequence: 0,
     ),
     Document(
       $id: 'subUserDoc2',
@@ -64,7 +63,6 @@ void main() {
       },
       $createdAt: DateTime.now().toIso8601String(),
       $updatedAt: DateTime.now().toIso8601String(),
-      $sequence: 1,
     ),
   ];
   final List<Document> mockUpcomingRoomsDocuments = [
@@ -86,7 +84,6 @@ void main() {
       },
       $createdAt: DateTime.now().toIso8601String(),
       $updatedAt: DateTime.now().toIso8601String(),
-      $sequence: 0,
     ),
     Document(
       $id: 'room2',
@@ -104,7 +101,6 @@ void main() {
       },
       $createdAt: DateTime.now().toIso8601String(),
       $updatedAt: DateTime.now().toIso8601String(),
-      $sequence: 1,
     ),
   ];
   final User mockUser = User(
@@ -142,7 +138,6 @@ void main() {
       'ratingTotal': 5,
       'ratingCount': 1,
     },
-    $sequence: 0,
   );
 
   setUp(() {
@@ -200,7 +195,6 @@ void main() {
         data: Map<String, dynamic>.from(
           invocation.namedArguments[#data] as Map,
         ),
-        $sequence: 0,
       );
     });
 

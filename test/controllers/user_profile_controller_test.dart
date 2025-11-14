@@ -41,7 +41,6 @@ List<Document> mockStoryDocuments = [
       'tintColor': '0000FF',
       'playDuration': 120,
     },
-    $sequence: 0,
   ),
   Document(
     $id: 'doc2',
@@ -66,7 +65,6 @@ List<Document> mockStoryDocuments = [
       'tintColor': '0000FF',
       'playDuration': 120,
     },
-    $sequence: 1,
   ),
 ];
 
@@ -107,7 +105,6 @@ final Document mockSearchedUserDocument = Document(
       },
     ],
   },
-  $sequence: 0,
 );
 final Document mockUserDocument = Document(
   $id: 'doc1',
@@ -146,7 +143,6 @@ final Document mockUserDocument = Document(
       },
     ],
   },
-  $sequence: 0,
 );
 final User mockUser = User(
   $id: 'id2',
@@ -195,7 +191,6 @@ final Document mockFollowerDocument = Document(
     "followerRating": 5,
     "followingUserId": "id1",
   },
-  $sequence: 0,
 );
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

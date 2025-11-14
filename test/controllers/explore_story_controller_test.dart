@@ -47,7 +47,6 @@ List<Document> mockStoryDocuments = [
       'tintColor': '0000FF',
       'playDuration': 120,
     },
-    $sequence: 0,
   ),
   Document(
     $id: 'doc2',
@@ -72,7 +71,6 @@ List<Document> mockStoryDocuments = [
       'tintColor': '0000FF',
       'playDuration': 120,
     },
-    $sequence: 1,
   ),
 ];
 List<Document> mockUsersDocuments = [
@@ -97,7 +95,6 @@ List<Document> mockUsersDocuments = [
       'ratingCount': 7,
       'ratingTotal': 25,
     },
-    $sequence: 0,
   ),
   Document(
     $id: 'doc2',
@@ -120,7 +117,6 @@ List<Document> mockUsersDocuments = [
       'ratingCount': 5,
       'ratingTotal': 15,
     },
-    $sequence: 1,
   ),
 ];
 

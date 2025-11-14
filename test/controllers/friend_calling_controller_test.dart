@@ -41,7 +41,6 @@ final Document mockFriendCallDocument = Document(
   $updatedAt: DateTime.fromMillisecondsSinceEpoch(1754337186).toIso8601String(),
   $permissions: ['any'],
   data: {...mockFriendCallModel.toJson(), '\$id': 'doc1'},
-  $sequence: 0,
 );
 final Document mockFriendCallEndedDocument = Document(
   $id: 'doc1',
@@ -56,7 +55,6 @@ final Document mockFriendCallEndedDocument = Document(
         .toJson(),
     '\$id': 'doc1',
   },
-  $sequence: 0,
 );
 final Document mockFriendCallDeclinedDocument = Document(
   $id: 'doc1',
@@ -71,7 +69,6 @@ final Document mockFriendCallDeclinedDocument = Document(
         .toJson(),
     '\$id': 'doc1',
   },
-  $sequence: 0,
 );
 final Document mockFriendCallAcceptedDocument = Document(
   $id: 'doc1',
@@ -86,7 +83,6 @@ final Document mockFriendCallAcceptedDocument = Document(
         .toJson(),
     '\$id': 'doc1',
   },
-  $sequence: 0,
 );
 StreamController<RealtimeMessage> mockRealtimeMessageStreamController =
     StreamController<RealtimeMessage>.broadcast();
